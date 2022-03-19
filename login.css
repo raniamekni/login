@@ -1,0 +1,27 @@
+body {
+  text-align: left;
+  width: 25%;
+  margin: auto;
+  padding: 10px;
+  background-color:hsl(200, 37%, 70%);
+  color: hsl(180, 5%, 7%);
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  line-height: 200%;
+}
+
+#submit {
+  background-color: hsl(180, 60%, 53%);
+}
+
+#submit:hover {
+  background-color: hsl(199, 98%, 51%);
+}
+#title{
+    color: blue;
+}

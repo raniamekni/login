@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1 id="title">Sports Games </h1>
+        <p id="description">Fill out the short questionnaire and give us some information about you and the sport you want</p>
+        <form id="survey-form">
+            <fieldset>
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" placeholder="Firstname Lastname" required>
+                <br>
+                <label for="email">numberphone: </label>
+                <input type="number" id="number" name="numberphone" placeholder="123456789" unique>
+                <br>
+                <label for="age">Age: </label>
+                <input type="number" id="age" name="age" min="1" max="100" >
+                <br>
+                <label for="dropdown">sports: </label>
+                <select id="dropdown" name="dropdown">
+                    <option id="cycle sports" name="cycle sports" value="cycle sports">Cycle Sports</option>
+                    <option id="Gymnastics" name="Gymnastics" value="Gymnastics">Gymnastics</option>
+                    <option id="handball" name="handball" value="handball">Handball</option>
+                     <option id="Basketball" name="Basketball" value="Basketball">Basketball</option>
+                     <option id="Zumba" name="Zumba" value="Zumba">Zumba</option>
+                     <option id="Billiard" name="Billiard" value="Billiard">Billiard</option>
+                      <option id="Rugby" name="Rugby" value="Rugby">Rugby</option>
+                      <option id="Swimming" name="Swimming" value="Swimming">Swimming</option>
+                     
+                </select>
+                <br>
+                <label for="comments">Additional Comments: </label><br>
+                <textarea id="comments" name="comments">
+                </textarea>
+                <br>
+                <input type="submit" id="submit" value="Submit">
+            </fieldset>
+        </form>
+       
+</body>
+</html>
